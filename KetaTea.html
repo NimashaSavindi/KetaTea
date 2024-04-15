@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>KetaTea</title>
+	
+	<link rel="stylesheet" href="styles.css">
+
+	
+	
+</head>
+<body>
+
+<div class="hero-image"></div>
+		
+<div class="tab">
+  <button class="tablinks" onclick="openpage('KetaTea.html')">Home</button>
+  <button class="tablinks" onclick="openpage('TeaType.html')">Tea Type</button>
+  <button class="tablinks" onclick="openpage('Collection.html')">Collection</button>
+  <button class="tablinks" onclick="openpage('Blog.html')">Blog</button>
+  <button class="tablinks" onclick="openpage('ContactUs.html')">Contact Us</button>
+</div>
+
+
+<script>
+function openpage(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+function openpage(url) {
+		window.location.href = url;
+}
+</script>
+
+<div class="container">
+    <img class="image" src="IMG-20240308-WA0058.jpg" alt="Image">
+    <div class="description" id="grad">
+      <p><h4>Welcome to<br>
+	  Keta Tea<br></h4>
+	  <h5 style="color:black">
+	  <strong>K</strong>eta Tea is your start to an extraordinary Ceylon Tea<br>
+	  experience.Keta Tea is not only fresh,it is also filled with the passion<br>
+	  and expertise that our teamakers put into bringing you the perfect<br>
+	  cup of tea.<br>
+	  <br>
+	  <br>
+	  <br>
+	  <a href="KetaTea@gmail.com">customercare@KetaTea.com</a><br>
+	  <br>
+	  <br>
+	  <br>
+	  </h5>
+	  </p>
+    </div>
+  </div>
+  
+<div class="foot">
+    
+	<h3>AboutWebsite</h3>
+	
+	<a href="terms&conditions">Terms and Conditions</a><br>
+	<a href="privacypolicy">Privacy Policy</a>
+	
+	
+	<h3>Location</h3>
+	
+	Reg no: WF18261<br>
+	Adddress No: 
+		32/4,Sangarama,Siddamulla,Piliyandala
+	
+</div>
+
+<footer>
+	
+	<p>&copy; 2024 Professional Web Page. All rights reserved.</p>
+	
+</footer>
+
+
+</body>
+</html>

@@ -1,0 +1,120 @@
+body, html {
+			height: 100%;
+			margin: 0;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+	
+		.hero-image {
+			background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("IMG-20240308-WA0059.jpg");
+			height: 50%;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+			opacity: 1;
+		}
+		
+		.tab {
+			overflow: hidden;
+			border: 1px solid #ccc;
+			background-color: #004225;
+		}
+		
+		.tab button {
+			background-color: #004225;
+			float: left;
+			border: none;
+			outline: none;
+			cursor: pointer;
+			padding: 14px 16px;
+			transition: 0.3s;
+			font-size: 17px;
+			color:white;
+		}
+		
+		.tab button:hover {
+			background-color: #006400;
+		}
+		
+		.tab button.active {
+			background-color:#006400;
+		}
+		
+		.tabcontent {
+			display: none;
+			padding: 6px 12px;
+			border: 1px solid #ccc;
+			border-top: none;
+		}
+		
+		footer {
+		background-color: black;
+		color:#fff;
+		text-align: center;
+		padding: 5px;
+		
+	}
+	
+		.container {
+			position:  absolute;
+			  top: 87%;
+			  left: 87.5%;
+			display: inline-block;
+		}
+		
+		.description {
+			  position: absolute;
+			  top: 205%;
+			  left: 175%;
+			  transform: translate(-50%, -50%);
+			  background-color: rgba(0, 0, 0, 0.7);
+			  color: #fff;
+			  padding-top: 0px;
+			  padding-right:113px;
+			  padding-bottom: 45px;
+			  padding-left: 58.7px;
+			  font-size: 18px;
+			  text-align: center;
+		}
+		
+		#grad {
+			background-color: white;
+			background-image: linear-gradient(to bottom right, white, white);
+		}
+		
+		h4 {
+			font-size: 50px;
+			font-family:Garamond;
+			background: -webkit-linear-gradient(#004225,#2C3539);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+	}
+	
+			.row {
+			  display: flex;
+			  flex-wrap: wrap;
+			  padding: 0px;
+			}
+
+
+			.column {
+			  flex: 25%;
+			  padding: 0px;
+			}
+
+			.column img {
+			  margin-top: 8px;
+			  vertical-align: middle;
+			}
+				
+			img {
+				  border: 5px solid #555;
+				}
+				
+		.foot {
+			background-color: #551606;
+			color:#fff;
+			text-align: center;
+			padding: 10px;
+				
+		}

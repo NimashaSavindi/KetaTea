@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Collection</title>
+
+<link rel="stylesheet" href="styles_03.css">
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+</head>
+<body>
+
+	<div class="hero-image"></div>
+	
+	<div class="tab">
+  <button class="tablinks" onclick="openpage('KetaTea.html')">Home</button>
+  <button class="tablinks" onclick="openpage('TeaType.html')">Tea Type</button>
+  <button class="tablinks" onclick="openpage('Collection.html')">Collection</button>
+  <button class="tablinks" onclick="openpage('Blog.html')">Blog</button>
+  <button class="tablinks" onclick="openpage('ContactUs.html')">Contact Us</button>
+</div>
+
+
+<script>
+function openpage(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+function openpage(url) {
+		window.location.href = url;
+}
+</script>
+
+<h2>
+<b>Collection</b>
+</h2>
+<svg height="50" width="300" xmlns="http://www.w3.org/2000/svg">
+  <line x1="0" y1="10" x2="250" y2="10" style="stroke:black;stroke-width:5" /> 
+</svg>
+	<p>The Perfect Collections of products designed to suit your every mood. Our Fresh Collections of Ceylon Tea are sure to delight.</p>
+	<dl>
+	<dt style = "text-indent: 50px;">The Sense of Touch </dt>
+	<dd style = "text-indent: 50px;">Tactility is one of the most important parts of our sensory systems, and it is especially important when grading loose-leaf black<br>
+	tea. In Sri Lanka, black tea is sorted and graded depending on its appearance and size. For instance, Orange Pekoe (OP) is a term<br>
+	for the highest grade of black tea consisting of many whole tea leaves of a specific size. Read our blog to find out what makes <br>
+	OP special. Another tea grading is Broken Orange Pekoe (BOP) which consists of the dustings, or fannings, of OP tea which produces<br>
+	a stronger brew.</dd> 
+<br>
+	<dt style = "text-indent: 50px;">The Sense of Sound</dt>
+	<dd style = "text-indent: 50px;">Any tea connoisseur would relish the everyday sounds of making a cup of tea. The gentle rustling sound of the dry leaves as you <br>
+	scoop them out from the caddy; the bubbling of the boiling water in the kettle; the hushed streaming sound as you pour the water<br>
+	– the sounds of comfort! Delight in this beautiful, soft symphony whenever you make yourself a comforting cup of Ceylon tea.</dd> 
+	</dl>
+	<br>
+	<div class="container">
+    <div class="description" id="grad">
+      <p><h4>
+	  Keta Tea</h4>
+	  <h5 style="color:black">
+	  <strong>Contact Us</strong><br>
+	  We are here to answer any questions you may have about our products or<br>
+	  services.Reach out to us today and we will respond to you as soon as <br>
+	  possible.<br>
+	  <br>
+	  <a href="KetaTea@gmail.com">customercare@KetaTea.com</a><br>
+	  </h5>
+	  </p>
+    </div>
+  </div>
+  <br><br>
+  <div class="row" style = "text-indent: 50px;" >
+  <div class="column" >
+    <img src="apple_kt.png" style="width:50%"><br>
+	<p>Price Rs 250.00</p>
+        <p style = "text-indent: 50px;"><button style='font-size:20px'>Add To Cart<i class="&#xf217;"></i></button></p>
+    <p style = "text-indent: 50px;">
+	<img src="black_kt.png" style="width:50% ;"><br>
+	<p>Price Rs 270.00</p>
+		<p style = "text-indent: 50px;"><button style='font-size:20px'>Add To Cart<i class="&#xf217;"></i></button></p></p>
+  </div>
+  <div class="column">
+    <img src="keta tea.png" style="width:50%"><br>
+	<p>Price Rs 270.00</p>
+		<p style = "text-indent: 50px;"><button style='font-size:20px'>Add To Cart<i class="&#xf217;"></i></button></p>
+    <p style = "text-indent: 50px;">
+	<img src="lemon_kt.png" style="width:50%"><br>
+	<p>Price Rs 270.00</p>
+		<p style = "text-indent: 50px;"><button style='font-size:20px'>Add To Cart<i class="&#xf217;"></i></button></p></p>
+  </div> 
+  <div class="column" style = "text-indent: 50px;">
+    <img src="cinnemon_kt.png" style="width:50%"><br>
+	<p>Price Rs 270.00</p>
+		<p style = "text-indent: 50px;"><button style='font-size:20px'>Add To Cart<i class="&#xf217;"></i></button></p>
+    <p style = "text-indent: 50px;">
+	<img src="ginger_kt.png" style="width:50%"><br>
+	<p>Price Rs 270.00</p>
+		<p style = "text-indent: 50px;"><button style='font-size:20px'>Add To Cart<i class="&#xf217;"></i></button></p></p>
+  </div>
+  <div class="column">
+    <img src="green_kt.png" style="width:50%"><br>
+	<p>Price Rs 270.00</p>
+		<p style = "text-indent: 50px;"><button style='font-size:20px'>Add To Cart<i class="&#xf217;"></i></button></p>
+    <p style = "text-indent: 50px;">
+	<img src="herbal_kt.png" style="width:50%"><br>
+	<p>Price Rs 270.00</p>
+		<p style = "text-indent: 50px;"><button style='font-size:20px'>Add To Cart<i class="&#xf217;"></i></button></p></p>
+  </div>
+</div>
+
+<div class="foot">
+    
+	<h3>AboutWebsite</h3>
+	
+	<a href="terms&conditions">Terms and Conditions</a><br>
+	<a href="privacypolicy">Privacy Policy</a>
+	
+	
+	<h3>Location</h3>
+	
+	Reg no: WF18261<br>
+	Adddress No: 
+		32/4,Sangarama,Siddamulla,Piliyandala
+	
+</div>
+	
+<footer>
+    <p>&copy; 2024 Professional Web Page. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

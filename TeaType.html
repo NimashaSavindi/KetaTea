@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Tea Type</title>
+
+<link rel="stylesheet" href="styles_02.css">
+
+</head>
+<body>
+
+	<div class="hero-image"></div>
+	
+	<div class="tab">
+  <button class="tablinks" onclick="openpage('KetaTea.html')">Home</button>
+  <button class="tablinks" onclick="openpage('TeaType.html')">Tea Type</button>
+  <button class="tablinks" onclick="openpage('Collection.html')">Collection</button>
+  <button class="tablinks" onclick="openpage('Blog.html')">Blog</button>
+  <button class="tablinks" onclick="openpage('ContactUs.html')">Contact Us</button>
+</div>
+
+
+<script>
+function openpage(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+function openpage(url) {
+		window.location.href = url;
+}
+</script>
+<h2>
+<b>Tea Type</b>
+</h2>
+<svg height="50" width="300" xmlns="http://www.w3.org/2000/svg">
+  <line x1="0" y1="10" x2="250" y2="10" style="stroke:black;stroke-width:5" /> 
+</svg>
+	<p style = "text-indent: 50px;">
+	Home to the mythical mountains that brithed the saga of Ceylon Tea, Sri Lanka is renowned for traditional,high-quality tea enjpyed by connoisseurs<br> 
+	the world over.</p>
+	<p style = "text-indent: 50px;">
+	Browse through an exciting range of Black, Green and Flavoured Teas as well as our newest additional, Oolong Tea from China.<br>
+	From frothy, spicy chai to rejuvenating and relaxing green tea, tea is loved all across the world in its various forms. While there are a seemingly <br>
+	endless amount of tea types, there are only five main brews of tea – black tea, white tea, green tea, oolong tea, and pu’erh. Despite their many names<br> 
+	and unique flavours, all tea is made from the leaves of the Camellia Sinensis tea bush. What sets each brew apart from one another is the length of <br>
+	time the tea leaves are oxidised for.</p>
+	<p style = "text-indent: 50px;">
+	Tea is truly remarkable. It began as a medicinal herbal beverage exclusively consumed by Chinese royalty, but has transformed into a thriving industry <br>
+	and tea is now the second most popular beverage in the world – second only to water!</p>
+	<p style = "text-indent: 50px;">
+	Whether you’re a tea connoisseur or you just enjoy a cuppa with your breakfast, tea has the extraordinary ability to make everything seem a bit better.<br>
+	Here are four of the world’s most beloved teas.
+	<ul>
+	<li>Black Tea</li>
+	<li>Flavoured Tea</li>
+	<li>Green Tea</li>
+	<li>Herbal Tea</li>
+	</ul>
+	</p>
+
+<div class="container">
+    <div class="description" id="grad">
+      <p><h4>
+	  Keta Tea</h4>
+	  <h5 style="color:black">
+	  <strong>Contact Us</strong><br>
+	  We are here to answer any questions you may have about our products or<br>
+	  services.Reach out to us today and we will respond to you as soon as <br>
+	  possible.<br>
+	  <br>
+	  <a href="KetaTea@gmail.com">customercare@KetaTea.com</a><br>
+	  </h5>
+	  </p>
+    </div>
+  </div>
+
+  <div class="row">
+  <div class="column">
+    <img src="apple_kt.png" alt="Snow" style="width:50%">
+  </div>
+  <div class="column">
+    <img src="black_kt.png" alt="Forest" style="width:50%">
+  </div>
+  <div class="column">
+    <img src="keta tea.png" alt="Mountains" style="width:50%">
+  </div>
+  <div class="column">
+    <img src="lemon_kt.png" alt="Mountains" style="width:50%">
+  </div>
+  <div class="column">
+    <img src="cinnemon_kt.png" alt="Mountains" style="width:50%">
+  </div>
+  <div class="column">
+    <img src="ginger_kt.png" alt="Mountains" style="width:50%">
+  </div>
+  <div class="column">
+    <img src="green_kt.png" alt="Mountains" style="width:50%">
+  </div>
+  <div class="column">
+    <img src="herbal_kt.png" alt="Mountains" style="width:50%">
+  </div>
+</div>
+
+	<div class="container_02">
+    <div class="description_02" id="grad_02">
+	  <h3 style="color:black">RECENT POSTS</h3>
+	  <h6 style="color:black">
+	  <ul>
+<li>A Guide to Brewing the Perfect Cup of Milk Tea</li>
+<li>A Celebration of Sri Lankan Traditions</li>
+<li>The 5 Most Famous Teas in the World</li>
+<li>Sip on a Tropical Iced Tea-ni this Summer</li>
+<li>The Best Father’s Day Gift Guide for TEA-LOVING DADS</li>
+<li>Tea Experiences to Gift this Mothers’ Day</li>
+<li>5 Teas Perfect for Sinhala & Tamil New Year</li>
+<li>4 Tea Gifts for Your Loved Ones</li>
+<li>5 Wellness Teas & Infusions You Need to Try</li>
+<li>5 Healthy Teas to Start the New Year</li>
+</ul>
+	  </h6>
+	  </p>
+    </div>
+  </div>
+<br><br><br>
+
+<div class="foot">
+    
+	<h3>AboutWebsite</h3>
+	
+	<a href="terms&conditions">Terms and Conditions</a><br>
+	<a href="privacypolicy">Privacy Policy</a>
+	
+	
+	<h3>Location</h3>
+	
+	Reg no: WF18261<br>
+	Adddress No: 
+		32/4,Sangarama,Siddamulla,Piliyandala
+	
+</div>
+
+<footer>
+    <p>&copy; 2024 Professional Web Page. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

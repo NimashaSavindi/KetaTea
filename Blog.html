@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Blog</title>
+
+<link rel="stylesheet" href="styles_04.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+	<div class="hero-image"></div>
+	
+	<div class="tab">
+  <button class="tablinks" onclick="openpage('KetaTea.html')">Home</button>
+  <button class="tablinks" onclick="openpage('TeaType.html')">Tea Type</button>
+  <button class="tablinks" onclick="openpage('Collection.html')">Collection</button>
+  <button class="tablinks" onclick="openpage('Blog.html')">Blog</button>
+  <button class="tablinks" onclick="openpage('ContactUs.html')">Contact Us</button>
+</div>
+
+
+<script>
+function openpage(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+function openpage(url) {
+		window.location.href = url;
+}
+</script>
+
+	<div class="row" style = "text-indent: 90px;">
+  <div class="column" id ="container">
+    <img src="blog_01.jpg" alt="Snow" style="width:100%"><br>
+	<div class="text-block">
+	<p>A Guide to Brewing the Perfect Cup of Milk Tea<span id="dots">...</span><span id="more">
+	<br>Is there anything more comforting than a cup of milk tea? We think not. Milk tea is a staple in many Sri Lankan households,
+	and it is very common to stop at a kade (roadside shop) to enjoy a cup of sweetened milk tea as you travel around the island.
+	Read on to find out what it takes to brew the perfect cup of milk tea and get a milk tea recipe so that you can brew this 
+	comforting beverage at home!</span></p>
+
+<button onclick="myFunction()" id="myBtn">Read more</button></div>
+  </div>
+  <div class="column" id ="container">
+    <img src="blog_02.jpg" alt="Forest" style="width:100%"><br>
+	<div class="text-block">
+	<p>A Celebration of Sri Lankan Traditions<span id="dots">...</span><span id="more">
+	From the ancient dynasties of Anuradhapura and Polonnaruwa to the colonial era of the Portuguese, Dutch and British, 
+	our beautiful island of Sri Lanka has a long and rich history. Dubbed as the home of pure Ceylon tea, each era of Sri 
+	Lanka’s past has shaped the country uniquely and irrevocably and has given rise to several religious, cultural and social 
+	traditions.One such famous tradition is the Esala Perahera. Also known as the Kandy Perahera or Dalada Perahera, this 
+	ten-day-long festival commemorates the first teaching given by the Buddha after he attained enlightenment. Held between 
+	July and August in the mist-laden city of Kandy. With drummers, dancers, musicians and elephants carrying precious objects like
+	the sacred tooth relic, the perahera is a sensory experience.
+	Another important tradition that has gradually been intertwined with the country’s culture, is the tradition of growing and 
+	making tea. In 1824, Scotsman James Taylor planted the first 19 acres of tea in Loolecondera Estate near Kandy, Ceylon. Since 
+	then, tea has become a thriving industry and is a part of everyday Sri Lankan life. 
+	Zesta’s Perahera Elephant is the perfect amalgamation of these two beloved Sri Lankan traditions. This novelty tea gift contains
+	Zesta premium black tea presented in a rich wooden box and a porcelain tusker donning its traditional perahera costume. Much like 
+	the perahera, the tradition of growing, preparing and enjoying tea, whether it be English Breakfast tea, Earl Grey black tea or even 
+	green tea, is a sensory experience. </span></p>
+
+<button onclick="myFunction()" id="myBtn">Read more</button></div>
+  </div>
+  <div class="column" id ="container">
+    <img src="blog_03.jpg" alt="Mountains" style="width:100%"><br>
+	<div class="text-block">
+	<p>The 5 Most Famous Teas in the World<span id="dots">...</span><span id="more">
+	Is there anything more comforting than a cup of milk tea? We think not. Milk tea is a staple in many Sri Lankan households,
+	and it is very common to stop at a kade (roadside shop) to enjoy a cup of sweetened milk tea as you travel around the island.
+	Read on to find out what it takes to brew the perfect cup of milk tea and get a milk tea recipe so that you can brew this 
+	comforting beverage at home!</span></p>
+
+<button onclick="myFunction()" id="myBtn">Read more</button></div>
+  </div>
+  <div class="column" id ="container">
+    <img src="blog_04.jpg" alt="Mountains" style="width:100%"><br>
+	<div class="text-block">
+	<p>Sip on a Tropical Iced Tea-ni this Summer<span id="dots">...</span><span id="more">
+	Is there anything more comforting than a cup of milk tea? We think not. Milk tea is a staple in many Sri Lankan households,
+	and it is very common to stop at a kade (roadside shop) to enjoy a cup of sweetened milk tea as you travel around the island.
+	Read on to find out what it takes to brew the perfect cup of milk tea and get a milk tea recipe so that you can brew this 
+	comforting beverage at home!</span></p>
+
+<button onclick="myFunction()" id="myBtn">Read more</button></div>
+  
+  </div>
+</div>
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+</script>
+
+
+<div class="foot">
+    
+	<h3>AboutWebsite</h3>
+	
+	<a href="terms&conditions">Terms and Conditions</a><br>
+	<a href="privacypolicy">Privacy Policy</a>
+	
+	
+	<h3>Location</h3>
+	
+	Reg no: WF18261<br>
+	Adddress No: 
+		32/4,Sangarama,Siddamulla,Piliyandala
+	
+</div>
+<footer>
+    <p>&copy; 2024 Professional Web Page. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
